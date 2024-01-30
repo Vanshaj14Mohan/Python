@@ -61,3 +61,51 @@ print(a <= b) #False
 print( b > a) #False
 print(b != a) #True
 print(a != b) #True
+
+#Assignment operators
+num = 10
+#num = num + 10
+num += 10 #short way to write above code
+print("num :", num) #10+10 =>20
+num2 = 20
+num2 -=5
+print("num2:", num2)#15
+num3 = 20
+num3 *=5
+print("num3:", num3)#100
+num4 = 35
+num4 /=5
+print("num4:", num4)#7.0
+num5 = 45
+num5 %= 10
+print("num5:", num5)#5
+num6 = 8
+num6 **=4
+print("num6:", num6)#4096
+
+#Logical operators
+#not operator => Gives the reverse answer, just the opposite
+print(not False)
+print(not True)
+a = 25
+b = 15
+print(not (a>b)) #False
+print(not (a<b)) #True
+
+#and operator, gives true values when both operands have true values
+val1 = True
+val2 = True
+print("And case test:", val1 and val2) #True
+val3 = True
+val4 = False
+print("And case test:", val3 and val4) #False
+ 
+#or operator, gives true value if any operand has true value
+value1 = True
+value2 = False
+print("Or case test:", value1 or value2) #True
+value3 = False
+value4 = False
+print("Or case test:", value3 or value4)# False
+#we can apply this on values too
+print("Or test case:", (a ==b) or (a>b))#True
