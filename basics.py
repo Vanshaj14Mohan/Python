@@ -39,3 +39,25 @@ a = 15
 b = 10
 diff = a-b
 print(diff)
+
+#Now types of operators in python
+#Arithmetic operators
+a = 7
+b = 4
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b) #gives remainder
+print(a**b) #a^b
+
+#Relational operators, gives true or false in output
+a = 30
+b = 20
+print(a == b) #False
+print(a >= b) #True
+print(a > b) #True
+print(a <= b) #False
+print( b > a) #False
+print(b != a) #True
+print(a != b) #True
