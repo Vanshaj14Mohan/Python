@@ -20,10 +20,12 @@ key[2] ="night"
 print(key[2]) #night
 print(key)# "hello", "good", "night" -> a new list
 
-#list slicing is possible here too
+#slicing is possible here too
 print(random[0:4]) #sam, arthur, 90, 87.25
 print(random[1:3]) #arthur, 90, 87.25
 print(random[0:3]) #sam, arthur, 90
 print(random[:3]) #same as above
 print(random[-4:-1])#sam, arthur, 90
 print(random[::-1]) #print reverse order of random
+
+#list methods
