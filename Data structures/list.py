@@ -29,7 +29,6 @@ print(random[-4:-1])#sam, arthur, 90
 print(random[::-1]) #print reverse order of random
 
 #list methods
-
 list = [5, 2, 3]
 list.append(4) #adds one element at the end
 print(list) #[5,2,3,4]
