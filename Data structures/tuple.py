@@ -9,6 +9,7 @@ print(tup[0], tup[1], tup[2], tup[3]) #[1,2,3,4]
 #slicing in tuples
 print(tup[0:3])#(1,2,3)
 print(tup[1:3])#(2,3)
+print(tup[2:4])#(3,4)
 print(tup[0:4])#(1,2,3,4)
 print(tup[:4])#(1,2,3,4)
 
