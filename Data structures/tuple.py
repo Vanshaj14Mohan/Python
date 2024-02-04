@@ -1,5 +1,5 @@
 #Creating a tuple
-
+#properties -> Immutable(can't change), ordered, duplicates allowed.
 tup =(1,2,3,4)
 print(type(tup)) #Tuple
 
