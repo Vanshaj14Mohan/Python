@@ -26,7 +26,7 @@ print(marks)
 #4-> Figure out a way to store 9 & 9.0 as separate values in the set.
 #two solutions for this.
 #1. storing one of them in string form.
-set = {9, "9.0"}
+set = {9, "9.0"} #using a string in set
 print(set)
 #2-> using built-in data types.
 values = {
