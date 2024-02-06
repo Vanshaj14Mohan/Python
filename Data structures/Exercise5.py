@@ -30,7 +30,7 @@ set = {9, "9.0"} #using a string in set
 print(set)
 #2-> using built-in data types.
 values = {
-    ("float", 9.0),
+    ("float", 9.0), #creating values with different data types.
     ("int", 9)
 }
 print(values)
