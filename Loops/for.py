@@ -8,3 +8,7 @@ tuple =(10, 20, 30, 40)
 for li in tuple:
     print(li)
 print("--"*10)
+
+str = "Academics"
+for char in str:
+    print(char)
