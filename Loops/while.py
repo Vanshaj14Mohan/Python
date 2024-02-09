@@ -1,3 +1,4 @@
+#Introduction to while loop
 #Print hello 5 times
 count = 1 #here count -> iterator,
 while count <=5:
@@ -30,4 +31,24 @@ i = 5
 while i>=1:
     print(i)
     i-=1
+print("--"*10)
 
+#using break statment
+#print number from 1-5 but quit after reaching 3
+i =1
+while i<=5:
+    print(i)
+    if(i ==3):
+        break
+    i += 1
+print("end of loop")
+
+#Print 1-5 skip 3 number in that
+i =0
+while i<=5:
+    if(i ==3):
+        i += 1
+        continue #skip, will skip three count 
+    print(i)
+    i += 1
+print("end of loop")

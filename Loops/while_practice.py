@@ -36,6 +36,28 @@ i =0
 while i < len(random):
     if(random[i] == x):
         print("Number found at idx:", i)
+        break
     else:
         print("Not found")
     i +=1
+print("end of loop")
+
+#6 -> Print  1-10 numbers using while loop excluding even numbers in it.
+i = 1
+while i<10:
+    if(i%2 == 0):
+        i +=1
+        continue
+    print(i)
+    i +=1
+print("end of loop")
+
+#7 -> Print  1-10 numbers using while loop excluding odd numbers in it.
+i = 1
+while i<=10:
+    if(i%2 != 0):
+        i +=1
+        continue
+    print(i)
+    i +=1
+print("end of loop")
