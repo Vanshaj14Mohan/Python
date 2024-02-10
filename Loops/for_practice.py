@@ -15,3 +15,17 @@ for el in tup:
         break #in case if there were same numbers at different indexes.
     idx +=1
 
+#3 ->Print sum of n natural numbers using for loop
+n = 8
+sum =0
+for i in range(1, n+1):
+    sum += i
+print("total sum is", sum)
+print("--"*10)
+
+#4 -> Print factorial of first n numbers using for loop
+n =7
+fact = 1
+for i in range(1, n+1):
+    fact *= i
+print("factorial =", fact)

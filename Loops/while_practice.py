@@ -61,3 +61,21 @@ while i<=10:
     print(i)
     i +=1
 print("end of loop")
+
+#8 -> Print sum of n natural numbers using while loop
+n = 7
+sum = 0
+i =1
+while i<=n:
+    sum += i
+    i +=1
+print("total sum =", sum)
+
+#9 -> Print factorial of n numbers using while loop
+n = 5
+fact = 1
+i = 1
+while i<=n:
+    fact *= i
+    i += 1
+print("factorial =", fact)
