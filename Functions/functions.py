@@ -29,3 +29,13 @@ def sub_fun (a, b):
 print("For substraction")
 sub_fun(40, 32)
 print("--"*5)
+
+
+#Another way to implement this, 
+# For divison
+print("For divison")
+def div_find(a,b):
+    return a % b 
+div = div_find(98, 12)
+print(div) #returns remainder
+print("--"*5)
