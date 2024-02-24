@@ -42,4 +42,14 @@ def convert(usd_value):
     inr_value = usd_value * 83
     print(usd_value, "USD=", inr_value, "INR")
 convert(90)
+print("--"*5)
+
+#6. Program to check if number is even or odd using functions.
+def numbers(n):
+    if(n %2 == 0):
+        print("even number")
+    else:
+        print("odd number")
+numbers(25)
+print("--"*5)
     
