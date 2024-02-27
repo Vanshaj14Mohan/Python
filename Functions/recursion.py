@@ -36,3 +36,4 @@ def list_no(list, idx =0):
 
 languages =["Javascript", "C++", "Python", "C", "Java"]
 list_no(languages)
+print("--"*10)
