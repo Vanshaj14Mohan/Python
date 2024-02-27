@@ -26,6 +26,7 @@ def natural_no(n):
     return natural_no(n-1) + n
 sum =natural_no(7)
 print(sum)
+print("--"*10)
 
 #4. Write a recursive function to print all elements in a list. hint use list & index as paramter
 def list_no(list, idx =0):
