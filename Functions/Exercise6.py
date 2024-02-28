@@ -34,6 +34,7 @@ def fac_no (n):
         fact *= i
         print(fact)
 fac_no(6)
+print("--"*5)
 
 
 #5. Program to convert USD into INR.
