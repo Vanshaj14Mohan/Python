@@ -8,6 +8,7 @@ def num(n):
     print(n)
     num(n-1)
 num(6) 
+print("--"*5)
 
 #2. Print n factorial of a number
 def fac(n):
