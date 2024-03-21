@@ -8,4 +8,4 @@ line2 = f.readline()
 print(line2)
 #print(data)
 #print(type(data))
-f.close()
+f.close() #to close file
