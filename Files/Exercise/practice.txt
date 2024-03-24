@@ -1,0 +1,4 @@
+So we are learing File I/O 
+operations
+in Python so now
+A quick practice set on this
