@@ -1,4 +1,5 @@
 # A file I/O syntax
+#how to read in a line.
 #f = open("E:\Python\Files\demo.txt", "r")
 #data = f.read() #read entire file
 #data = f.read(7) starting 7 words of the file
