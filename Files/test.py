@@ -1,4 +1,5 @@
 f = open("files/test.txt", "r")
 data =f.read()
 print(data)
+print(type(data))
 f.close()
