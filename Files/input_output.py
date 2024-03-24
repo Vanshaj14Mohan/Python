@@ -18,7 +18,7 @@
 #f= open("E:\Python\Files\demo.txt", "w") #for write
 #f.write("A basic start to file input/output operations in python") #replaces all data in demo.txt with new data
 #2 way 
-f=open("E:\Python\Files\demo.txt", "a") #to append data in the last
+f=open("files/demo.txt", "a") #to append data in the last
 f.write("\n to append data we use a command in the last") #\n to bring it in new line
 f.close()
 
