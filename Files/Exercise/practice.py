@@ -7,7 +7,7 @@ print(newdata)
 with open("files/exercise/practice.txt", "w") as f:
     f.write(newdata)
 
-
+#to find a paticular word in the file
 word="learning"
 with open("files/exercise/practice.txt", "r") as f:
     data=f.read()
