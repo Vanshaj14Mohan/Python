@@ -1,3 +1,4 @@
+#to replace a particular word in a file
 with open("files/exercise/practice.txt", "r") as f:
     data=f.read()
 
