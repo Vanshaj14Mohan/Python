@@ -1,2 +1,2 @@
 A basic start to file input/output operations in python
- to append data we use a command in the last
+to append data we use a command in the last
