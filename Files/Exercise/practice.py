@@ -21,3 +21,18 @@ def check_for_words():
 check_for_words()
 
 #to find in which line of the file does the word learning occurs first 
+def check_for_lines():
+     word="set"
+     data= True
+     line_no = 1
+     with open("files/exercise/practice.txt", "r") as f:
+          while data:
+               data = f.readline()
+               if(word in data):
+                    print(line_no)
+                    return
+               line_no += 1
+
+     return -1
+
+check_for_lines()
