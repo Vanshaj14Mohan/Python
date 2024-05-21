@@ -1,5 +1,6 @@
 #Create student class that takes name & marks of 3 subjects as arguments in constructor.
 #Then create a method to print the average.
+#Showing non static method-> that uses self parameter
 class Student:
     def __init__(self,name,marks):
         self.name = name
@@ -17,3 +18,5 @@ s1.get_avg()
 #We can also change the value of student if we want 
 s1 = Student("Tom Hardy",[96, 95, 90])
 s1.get_avg()
+
+#Static methods
