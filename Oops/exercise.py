@@ -13,3 +13,7 @@ class Student:
 
 s1 = Student("Matthew Parker", [99, 95, 97])
 s1.get_avg()
+
+#We can also change the value of student if we want 
+s1 = Student("Tom Hardy",[96, 95, 90])
+s1.get_avg()
