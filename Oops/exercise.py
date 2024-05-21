@@ -25,3 +25,14 @@ def hello():
     print("Hello")
 
 hello()
+
+#Create account class with 2 attributes - balance & account no .
+#Create methods for debit, credit & printing the values
+class Account():
+    def __init__(self, bal, acc):
+        self.balance = bal
+        self.account_no = acc
+
+acc1 = Account(10000, 1457)
+print("Account balance" , acc1.balance)
+print("Account number" , acc1.account_no)        
