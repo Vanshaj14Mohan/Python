@@ -19,4 +19,9 @@ s1.get_avg()
 s1 = Student("Tom Hardy",[96, 95, 90])
 s1.get_avg()
 
-#Static methods
+#Static methods -> Methods that don't use the self parameter(work at class level)
+@staticmethod #decorator (@staticmethod -> converts a function into a static method) 
+def hello():
+    print("Hello")
+
+hello()
