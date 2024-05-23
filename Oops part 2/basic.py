@@ -24,5 +24,6 @@ acc1 = Account("12345", "abcd")
 print(acc1.acc_no)
 print(acc1.acc_pass)
 #but if we want to hide it then
-print(acc1.__acc_pass) #Will show error coz we made it private 
+#print(acc1.__acc_pass) #Will show error coz we made it private 
+#print(acc1.reset_pass()) #We can use it here
 
