@@ -27,6 +27,7 @@ print(acc1.acc_pass)
 #print(acc1.reset_pass()) #We can use it here
 
 #We can make methods attributes & methods both private
+#Private attributes & methods are meant to be used within the class and are not accessible from outside the class.
 class Person: 
     __name="xyz" #attribute
 
