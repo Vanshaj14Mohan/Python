@@ -1,0 +1,1 @@
+#Inheritance -> When one class(child/derived) dervies the properties & methods of another class(Parent/base)
