@@ -28,7 +28,6 @@ print("--"*20)
 
 #Multiple Inheritance
 class Car: #Parent class
-    #2 methods-> start & stop
     color="black"
     @staticmethod
     def start():
@@ -39,8 +38,14 @@ class Car: #Parent class
 
 #Child class
 class TataCar(Car): #using inheitance here
-    def __init__(self,name):
-        self.name = name
+    def __init__(self,brand):
+        self.brand = brand
 
-car1 = TataCar("Punch")
-car2 = TataCar("Nexa")
+class Nexa(TataCar):
+    def __init__(self,type):
+        self.type= type
+
+car1 = Nexa("diesel")
+car1.start()
+
+
