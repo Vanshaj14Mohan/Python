@@ -57,7 +57,7 @@ class A:
 class B:
     varB = "Class B"
 
-class C(A,B):
+class C(A,B): #Class C inheriting propreties of class A and B
     varC = "Class C"
 
 c1 = C()
