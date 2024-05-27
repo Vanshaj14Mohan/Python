@@ -51,19 +51,19 @@ print("--"*20)
 
 
 #Multiple Inheritance
-# class A:
-#     varA = "Class A"
+class A:
+    varA = "Class A"
 
-# class B:
-#     varB = "Class B"
+class B:
+    varB = "Class B"
 
-# class C(A,B):
-#     varC = "Class C"
+class C(A,B):
+    varC = "Class C"
 
-# c1 = C()
-# print(c1.varA)
-# print(c1.varB)
-# print(c1.varC)
+c1 = C()
+print(c1.varA)
+print(c1.varB)
+print(c1.varC)
 
 
 
