@@ -26,7 +26,7 @@ print(car2.start())#will show car started
 
 print("--"*20)
 
-#Multiple Inheritance
+#Multilevel Inheritance
 class Car: #Parent class
     color="black"
     @staticmethod
@@ -47,6 +47,23 @@ class Nexa(TataCar):
 
 car1 = Nexa("diesel")
 car1.start()
+print("--"*20)
 
-#Multilevel Inheritance
+
+#Multiple Inheritance
+# class A:
+#     varA = "Class A"
+
+# class B:
+#     varB = "Class B"
+
+# class C(A,B):
+#     varC = "Class C"
+
+# c1 = C()
+# print(c1.varA)
+# print(c1.varB)
+# print(c1.varC)
+
+
 
