@@ -1,5 +1,6 @@
 #Inheritance -> When one class(child/derived) dervies the properties & methods of another class(Parent/base)
 #Single Inheritance example:
+print("Single Inheritance:")
 class Car: #Parent class
     #2 methods-> start & stop
     color="black"
@@ -27,6 +28,7 @@ print(car2.start())#will show car started
 print("--"*20)
 
 #Multilevel Inheritance
+print("Multilevel Inheritance:")
 class Car: #Parent class
     color="black"
     @staticmethod
@@ -51,6 +53,7 @@ print("--"*20)
 
 
 #Multiple Inheritance
+print("Multiple Inheritance:")
 class A:
     varA = "Class A"
 
@@ -65,5 +68,8 @@ print(c1.varA)
 print(c1.varB)
 print(c1.varC)
 
+print("--"*20)
 
+#Super method
+#super() method is used to access methods of the parent class
 
