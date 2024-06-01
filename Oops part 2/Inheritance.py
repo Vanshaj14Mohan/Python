@@ -72,9 +72,9 @@ print("--"*20)
 
 #Super method
 #super() method is used to access methods of the parent class
-class Car: #Parent class
-
-    def __init__(self,type):
+print("Super method..")
+class Car: 
+    def __init__(self,type): #Extra constructor
         self.type = type
 
     @staticmethod
@@ -83,6 +83,16 @@ class Car: #Parent class
 
     def stop():
         print("car stopped")
+
+class ToyotaCar(Car): 
+    def __init__(self,name,type):
+        super().__init__(type) #using super method
+        self.name = name
+        super().start()
+
+car1 = ToyotaCar("Demo", "electric")
+print(car1.type)
+
 
 
 
