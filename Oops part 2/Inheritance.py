@@ -92,7 +92,12 @@ class ToyotaCar(Car):
 
 car1 = ToyotaCar("Demo", "electric")
 print(car1.type)
+print("--"*20)
 
+#Class method
+#A class method is bound to the class & receives the class as an implicit first argument.
+#Note-> A static method can't access or modify class state & generally for utility.
+print("Class method")
 
 
 
