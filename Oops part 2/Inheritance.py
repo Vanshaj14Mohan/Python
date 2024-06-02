@@ -98,6 +98,18 @@ print("--"*20)
 #A class method is bound to the class & receives the class as an implicit first argument.
 #Note-> A static method can't access or modify class state & generally for utility.
 print("Class method")
+class Person:
+    name ="random"
 
+    def changeName(self,name):
+        # self.name = name
+        Person.name = name
+        # or this ->self.__class__.name = "david" will give same result
+
+p1 = Person()
+p1.changeName("david")
+print(p1.name)
+#print(Person.name) #Will give the old value of 
+print(Person.name) #now it will show the name that we gave 
 
 
