@@ -101,10 +101,14 @@ print("Class method")
 class Person:
     name ="random"
 
-    def changeName(self,name):
-        # self.name = name
-        Person.name = name
-        # or this ->self.__class__.name = "david" will give same result
+    # def changeName(self,name):
+    #      self.name = name
+    #     Person.name = name
+    #      or this ->self.__class__.name = "david" will give same result
+
+    @classmethod #using class methods
+    def changeName(cls,name):
+        cls.name = name 
 
 p1 = Person()
 p1.changeName("david")
