@@ -8,4 +8,4 @@ class Student:
         self.percentage = str((self.maths + self.cs + self.stats)/3) + "%"
 
 stu1 = Student(98,95,95)
-print(stu1.percentage)
+print(stu1.percentage) #will print the average
