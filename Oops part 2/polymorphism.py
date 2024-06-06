@@ -26,3 +26,5 @@ num1.showNumber()
 
 num2 = Complex(5,7)
 num2.showNumber()
+
+#Now creating a function to add complex numbers using polymorphism
