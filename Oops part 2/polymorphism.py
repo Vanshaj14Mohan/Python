@@ -28,3 +28,10 @@ num2 = Complex(5,7)
 num2.showNumber()
 
 #Now creating a function to add complex numbers using polymorphism
+class Complex:
+    def __init__(self, real, img):
+        self.real = real
+        self.img = img
+
+    def showNumber(self):
+        print(self.real, "i +", self.img, "j")
