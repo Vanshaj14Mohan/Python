@@ -26,5 +26,26 @@ num1.showNumber()
 
 num2 = Complex(5,7)
 num2.showNumber()
+print("--"*20)
 
-#Now creating a function to add complex numbers using polymorphism
+#Operators and Dunden functions.
+print("Dunden functions")
+class Complex:
+    def __init__(self, real, img):
+        self.real = real
+        self.img = img
+
+    def showNumber(self):
+        print(self.real, "i +", self.img, "j")
+
+    def add(self,num2): #logic to add 2 numbers
+        newReal = self.real + num2.real
+        newImg = self.img + num2.img
+
+
+#creating a complex number
+num1 = Complex(2,5)
+num1.showNumber()
+
+num2 = Complex(5,7)
+num2.showNumber()
