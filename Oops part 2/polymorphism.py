@@ -41,6 +41,7 @@ class Complex:
     def add(self,num2): #logic to add 2 numbers
         newReal = self.real + num2.real
         newImg = self.img + num2.img
+        return Complex(newReal, newImg)
 
 
 #creating a complex number
@@ -49,3 +50,6 @@ num1.showNumber()
 
 num2 = Complex(5,7)
 num2.showNumber()
+
+num3 = num1.add(num2)
+num3.showNumber()
