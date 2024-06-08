@@ -43,6 +43,12 @@ class Complex:
         newReal = self.real + num2.real
         newImg = self.img + num2.img
         return Complex(newReal, newImg)
+    
+    #same logic for substraction
+    def __sub__(self,num2): #making it a dunder function
+        newReal = self.real - num2.real
+        newImg = self.img - num2.img
+        return Complex(newReal, newImg)
 
 
 #creating a complex number
@@ -56,4 +62,6 @@ num2.showNumber()
 # num3.showNumber()
 num3 = num1 + num2
 num3.showNumber()
+# num3 = num1 - num2 for substraction
+# num3.showNumber()
 print("--"*20)
