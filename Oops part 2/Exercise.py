@@ -14,3 +14,6 @@ class Circle:
 c1 = Circle(21)
 print(c1.area())
 print(c1.perimeter())
+
+#Q 2-> Define a Employee class with attributes role, department & salary. This class also has a showDetails() method.
+#Create an Enginner class that inherits properties from Employee & has additional attributes: name & age.
