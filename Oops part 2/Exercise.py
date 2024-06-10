@@ -46,3 +46,16 @@ print("--"*20)
 #Q 3-> Create a class Order which stores item & it's price.
 # Use Dunder function __gt__() to convey that:
 #order1 > order2 if price of order1 > price of order2
+print("Question 3")
+class Order:
+    def __init__(self, item, price):
+        self.item = item 
+        self.price = price
+
+    def __gt__(self, odr2):
+        return self.price > odr2.price
+
+odr1 =Order("chips", 20)
+odr2 = Order("chocolate", 10)
+
+print(odr1 > odr2)
