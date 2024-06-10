@@ -29,5 +29,13 @@ class Employee:
         print("dept =", self.dept)
         print("salary =", self.salary)
 
-e1 = Employee("manager", "management", "20,000")
-e1.showDetails()
+class Engineer(Employee):
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+        super().__init__("Engineer", "IT", "80,000")
+
+eng1 = Engineer("David", 30)
+eng1.showDetails()
+# e1 = Employee("manager", "management", "20,000")
+# e1.showDetails()
