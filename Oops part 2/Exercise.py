@@ -14,6 +14,20 @@ class Circle:
 c1 = Circle(21)
 print(c1.area())
 print(c1.perimeter())
+print("--"*20)
 
 #Q 2-> Define a Employee class with attributes role, department & salary. This class also has a showDetails() method.
 #Create an Enginner class that inherits properties from Employee & has additional attributes: name & age.
+class Employee:
+    def __init__(self, role, dept, salary):
+        self.role = role
+        self.dept = dept
+        self.salary = salary
+
+    def showDetails(self):
+        print("role =", self.role)
+        print("dept =", self.dept)
+        print("salary =", self.salary)
+
+e1 = Employee("manager", "management", "20,000")
+e1.showDetails()
